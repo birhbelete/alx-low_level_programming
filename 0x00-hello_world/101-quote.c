@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <unistd.h>
+
 /**
  *main - a function that prints a piece of art
  *Description: main function performs printf function
