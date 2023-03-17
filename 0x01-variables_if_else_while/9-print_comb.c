@@ -11,11 +11,15 @@ int main(void)
 	for (i = 48; i <= 57; i++)
 	{
 		putchar(i);
+		fflush(stdout);
 		if (i == 57)
 			break;
 		putchar(',');
+		fflush(stdout);
 		putchar(' ');
+		fflush(stdout);
 	}
 	putchar('\n');
+	fflush(stdout);
 	return (0);
 }
