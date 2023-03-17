@@ -1,9 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *main - a function that prints a piece of art
- *Description: main function performs printf function
- *Return: zero for sucess
+ *main - a function that performs comparision
+ *return: zero for sucess
  */
 int main(void)
 {
@@ -23,6 +22,5 @@ int main(void)
 	{
 		printf("%d is negative\n", n)
 	}
-
 	return (0);
 }
