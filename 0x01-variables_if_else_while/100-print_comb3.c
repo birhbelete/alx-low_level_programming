@@ -8,6 +8,7 @@ int main(void)
 {
 	int i;
 	int j;
+	int m;
 
 	for (i = 0; i <= 9; i++)
 	{
@@ -15,9 +16,11 @@ int main(void)
 		{
 			printf("%d", i);
 			printf("%d", j);
+			if (m == 89)
+				continue;
 			printf(",");
-			printf(" ");
 		}
+		printf(" ");
 	}
 	return (0);
 }
