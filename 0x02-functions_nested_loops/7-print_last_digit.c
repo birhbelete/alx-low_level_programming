@@ -16,7 +16,7 @@ int print_last_digit(int i)
 	}
 	else
 	{
-		-Putchar (j + 48);
+		_putchar (j + 48);
 		return (1);
 	}
 }
