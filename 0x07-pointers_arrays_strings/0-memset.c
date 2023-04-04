@@ -2,7 +2,7 @@
 /**
  * _memset -used to set a memory block
  * @i: starting address of memory to be filled
- * j: the desired value
+ * @b: the desired value
  * @n: number of bytes to be changed
  *
  * Return: changed array with new value for n bytes
